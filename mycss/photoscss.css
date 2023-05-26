@@ -1,0 +1,852 @@
+
+  *{
+    box-sizing: border-box;
+  }
+  body{
+    background-color: rgb(247, 251, 251);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  #shubh1{
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+   
+  }
+  #pal1{
+    font-size: 14px;
+    font-family:cursive;
+    color:#f90505
+
+   
+  
+  }
+  .topal {
+    overflow: hidden;
+    background-color:  #08f708;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .topal a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: bold;
+  }
+  
+  .topal a:hover {
+    background-color: #8df406;
+    color: #ffffff;
+  }
+  
+  .topal a.active {
+    background-color: #08f708;
+    color: #ffffff;
+  }
+  
+  .topal .icon {
+    display: none;
+  }
+  
+
+
+
+
+
+
+
+
+  div.gallery1 {
+    border:transparent;
+    box-shadow: rgb(106, 106, 107);
+    float: left;
+    
+  }
+  
+  div.gallery1:hover {
+    border:transparent;
+  }
+  
+  div.gallery1 img {
+   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+  }
+  div.desc1 {
+    padding: 8px;
+    width: 418px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+   color: #ffffff;
+
+    
+  }
+  .bfdesc{
+    width: 405px;
+    padding: 2px;
+  }
+
+
+
+  .buttn1pal {
+    background-color: rgb(8, 247, 8);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 380px;
+  }
+  
+  
+  .buttn1pal:hover {
+    background-color: rgb(149, 242, 9);
+   
+  }
+.footerg{
+  padding: 8px;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  background-color:  #08f708;
+  display: inline-block;
+}
+ .footerg ul li{
+   list-style: none;
+   display: inline-flex;
+   font-size: 25PX;
+ }
+
+
+
+
+
+.like{
+  margin: 0px;
+  padding: 0px;
+ 
+  width: 90px;
+}
+
+
+
+.tap {
+  &:hover {
+    background-color: lighten(green, 5%);
+    cursor: pointer;
+    cursor: hand;
+  }
+  width: 90px;
+  height: 30px;
+  background-color: green;
+  color: white;
+  text-align:center;
+  line-height:30px;
+  border-radius: 30px;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color:transparent;
+}
+
+
+
+ 
+
+
+
+@media (min-width:200px) and (max-width: 480px) 
+ {
+
+
+    .topal a:not(:first-child) {display: none;}
+    .topal a.icon {
+      float: right;
+      display: block;
+    }
+  }
+/* -----------  Note 3 ----------- */
+
+
+@media (min-width:200px) and (max-width: 480px) 
+   {
+
+ 
+    .topal.responsive {position: relative;}
+    .topal.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+   
+    .topal {
+      overflow: hidden;
+      background-color:  #08f708;
+      width: 100%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .topal a{
+      font-size: 16px;
+    }
+   
+     #shubh1{
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+   
+  }
+  #pal1{
+    font-size: 10px;
+    font-family:cursive;
+    color:#f90505
+  }
+    .topal.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    div.gallery1 {
+        border:transparent;
+        box-shadow: rgb(13, 13, 13);
+        display: block;
+       
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        
+      }
+      
+      div.gallery1:hover {
+        border:transparent;
+      }
+      
+      div.gallery1 img {
+        
+       
+      
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       
+        
+        
+      }
+      div.desc1 {
+        padding: 4px;
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+       
+    
+        
+      }
+      .buttn1pal {
+        background-color:  rgb(127, 255, 0);
+        border: none;
+        color: white;
+        padding: 6px 5px;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: bold;
+        width: 100%;
+      }
+      
+      
+      .buttn1pal:hover {
+        background-color: rgb(149, 242, 9);
+       
+      }
+      .clearfix::after {
+        display: block;
+        clear: both;
+        content: "";
+      }
+      .footerg{
+        padding: 4px;
+        width: 100%;
+       
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+        background-color: rgb(127, 255, 0);
+        margin-top: 8px;
+        position: static;
+        bottom: 0;
+       
+      }
+      .footerg ul li{
+        list-style: none;
+        display: inline-flex;
+        
+      }
+      .footerg ul li a{
+        padding: 4px;
+        font-size: 14PX;
+      }
+      audio{
+        width: 200px;
+      }
+      .twt{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+      }
+  }
+
+
+
+
+
+
+
+
+
+
+    
+        /* Media Query for Mobile Devices */
+        @media (max-width: 480px) {
+          body {
+              background-color: rgb(255, 255, 255);
+          }
+      }
+        
+      /* Media Query for low resolution  Tablets, Ipads */
+      @media (min-width: 481px) and (max-width: 767px) {
+          body {
+              background-color: rgb(233, 184, 7);
+          }
+
+        
+    .topal.responsive {position: relative;}
+    .topal.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+   
+    .topal {
+      overflow: hidden;
+      background-color:  #08f708;
+      width: 100%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .topal a{
+      font-size: 24px;
+    }
+   
+     #shubh1{
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+   
+  }
+  #pal1{
+    font-size: 10px;
+    font-family:cursive;
+    color:#f90505
+  }
+    .topal.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    div.gallery1 {
+        border:transparent;
+        box-shadow: rgb(13, 13, 13);
+        display: block;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        
+      }
+      
+      div.gallery1:hover {
+        border:transparent;
+      }
+      
+      div.gallery1 img {
+        
+       
+      
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       
+        
+        
+      }
+      div.desc1 {
+        padding: 4px;
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+       
+    
+        
+      }
+      .buttn1pal {
+        background-color:  rgb(127, 255, 0);
+        border: none;
+        color: white;
+        padding: 6px 5px;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: bold;
+        width: 100%;
+      }
+      
+      
+      .buttn1pal:hover {
+        background-color: rgb(149, 242, 9);
+       
+      }
+      .clearfix::after {
+        display: block;
+        clear: both;
+        content: "";
+      }
+      .footerg{
+        padding: 4px;
+        width: 100%;
+        display: inline-block;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+        background-color: rgb(127, 255, 0);
+        margin-top: 8px;
+        position: static;
+        bottom: 0;
+       
+      }
+      .footerg ul li{
+        list-style: none;
+        display: inline-flex;
+        
+      }
+      .footerg ul li a{
+        padding: 4px;
+        font-size: 14PX;
+      }
+      audio{
+        width: 300px;
+      }
+      .twt{
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+ 
+    }
+        
+      /* Media Query for Tablets Ipads portrait mode */
+      @media (min-width: 768px) and (max-width: 1024px){
+          body {
+              background-color:rgb(237, 115, 233);
+              
+          }
+          .topal.responsive {position: relative;}
+    .topal.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+   
+    .topal {
+      overflow: hidden;
+      background-color:  #08f708;
+      width: 100%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .topal a{
+      font-size: 28px;
+    }
+   
+     #shubh1{
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+   
+  }
+  #pal1{
+    font-size: 10px;
+    font-family:cursive;
+    color:#f90505
+  }
+    .topal.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    div.gallery1 {
+        border:transparent;
+        box-shadow: rgb(13, 13, 13);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+      
+      div.gallery1:hover {
+        border:transparent;
+      }
+      
+      div.gallery1 img {
+        
+       
+      
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       
+        
+        
+      }
+      div.desc1 {
+        padding: 4px;
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+       
+    
+        
+      }
+      .buttn1pal {
+        background-color:  rgb(127, 255, 0);
+        border: none;
+        color: white;
+        padding: 6px 5px;
+        cursor: pointer;
+        font-size: 24px;
+        font-weight: bold;
+        width: 100%;
+      }
+      
+      
+      .buttn1pal:hover {
+        background-color: rgb(149, 242, 9);
+       
+      }
+      .clearfix::after {
+        display: block;
+        clear: both;
+        content: "";
+      }
+      .footerg{
+        padding: 4px;
+        width: 100%;
+        display: inline-block;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+        background-color: rgb(127, 255, 0);
+        margin-top: 8px;
+        position: static;
+        bottom: 0;
+       
+      }
+      .footerg ul li{
+        list-style: none;
+        display: inline-flex;
+        
+      }
+      .footerg ul li a{
+        padding: 4px;
+        font-size: 14PX;
+      }
+      audio{
+        width: 400px;
+      }
+      .twt{
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+
+
+
+
+
+
+
+      }
+        
+      /* Media Query for Laptops and Desktops */
+      @media (min-width: 1025px) and (max-width: 1280px){
+          body {
+              background-color: rgb(8, 205, 249);
+          }
+          .topal.responsive {position: relative;}
+    .topal.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+   
+    .topal {
+      overflow: hidden;
+      background-color:  #08f708;
+      width: 100%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .topal a{
+      font-size: 36px;
+    }
+   
+     #shubh1{
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+   
+  }
+  #pal1{
+    font-size: 10px;
+    font-family:cursive;
+    color:#f90505
+  }
+    .topal.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    div.gallery1 {
+        border:transparent;
+        box-shadow: rgb(13, 13, 13);
+        display: block;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        
+      }
+      
+      div.gallery1:hover {
+        border:transparent;
+      }
+      
+      div.gallery1 img {
+        
+       
+      
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       
+        
+        
+      }
+      div.desc1 {
+        padding: 4px;
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+       
+    
+        
+      }
+      .buttn1pal {
+        background-color:  rgb(127, 255, 0);
+        border: none;
+        color: white;
+        padding: 6px 5px;
+        cursor: pointer;
+        font-size: 25px;
+        font-weight: bold;
+        width: 100%;
+      }
+      
+      
+      .buttn1pal:hover {
+        background-color: rgb(149, 242, 9);
+       
+      }
+      .clearfix::after {
+        display: block;
+        clear: both;
+        content: "";
+      }
+      .footerg{
+        padding: 4px;
+        width: 100%;
+        display: inline-block;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+        background-color: rgb(127, 255, 0);
+        margin-top: 8px;
+        position: static;
+        bottom: 0;
+       
+      }
+      .footerg ul li{
+        list-style: none;
+        display: inline-flex;
+        
+      }
+      .footerg ul li a{
+        padding: 4px;
+        font-size: 14PX;
+      }
+      audio{
+        width: 500px;
+      }
+      .twt{
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+      }
+        
+      /* Media Query for Large screens */
+      @media (min-width: 1281px) {
+          body {
+              background-color: white;
+          }
+          .topal.responsive {position: relative;}
+    .topal.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+   
+    .topal {
+      overflow: hidden;
+      background-color:  #08f708;
+      width: 100%;
+      
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .topal a{
+      font-size: 36px;
+    }
+   
+     #shubh1{
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+   
+  }
+  #pal1{
+    font-size: 10px;
+    font-family:cursive;
+    color:#f90505
+  }
+    .topal.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    div.gallery1 {
+        border:transparent;
+        box-shadow: rgb(13, 13, 13);
+        display: block;
+        padding: 8px;
+      
+        margin-left: auto;
+        margin-right: auto;
+        width: 33%;
+      }
+      
+      div.gallery1:hover {
+        border:transparent;
+      }
+      
+      div.gallery1 img {
+        
+       
+      
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       
+        
+        
+      }
+      div.desc1 {
+        padding: 4px;
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+       
+    
+        
+      }
+      .buttn1pal {
+        background-color:  rgb(127, 255, 0);
+        border: none;
+        color: white;
+        padding: 6px 5px;
+        cursor: pointer;
+        font-size: 25px;
+        font-weight: bold;
+        width: 100%;
+      }
+      
+      
+      .buttn1pal:hover {
+        background-color: rgb(149, 242, 9);
+       
+      }
+      .clearfix::after {
+        display: block;
+        clear: both;
+        content: "";
+      }
+      .footerg{
+        padding: 4px;
+        width: 100%;
+        display: inline-block;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+        background-color: rgb(127, 255, 0);
+        margin-top: 8px;
+        position: static;
+        bottom: 0;
+       
+      }
+      .footerg ul li{
+        list-style: none;
+        display: inline-flex;
+        
+      }
+      .footerg ul li a{
+        padding: 4px;
+        font-size: 14PX;
+      }
+      audio{
+        width: 600px;
+      }
+      .twt{
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+ 
+      }
+
+ 
